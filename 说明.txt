@@ -1,4 +1,3 @@
-****************************************
 doctor-reservation2医生+管理员
 网址：https://download.csdn.net/download/zhupengqq/10030799
 基于SSM框架的就医预约挂号系统的后台1、实现PageHelper分页功能，bootstrap自适应框架
