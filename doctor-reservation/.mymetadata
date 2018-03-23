@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="doctor-reservation"
+  id="myeclipse.1521340534538"
+  context-root="/doctor-reservation"
+  j2ee-spec="5.0"
+  archive="doctor-reservation.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

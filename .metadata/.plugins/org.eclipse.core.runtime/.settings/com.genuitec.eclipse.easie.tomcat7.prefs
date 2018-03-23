@@ -1,0 +1,10 @@
+#Sun Mar 18 13:16:09 CST 2018
+TOMCAT_HOME=D\:\\apache-tomcat-7.0.85
+TOMCAT_TEMP=D\:\\apache-tomcat-7.0.85\\temp
+LIBRARY_PATH="C\:\\Users\\lenovo\\MyEclipse\\Common\\binary\\com.sun.java.jdk.win32.x86_64_1.6.0.013\\bin;D\:\\apache-tomcat-7.0.85\\bin"
+OPT_PROGRAM_ARGS=D\:\\apache-tomcat-7.0.85\\conf\\server.xml
+TOMCAT_BASE=D\:\\apache-tomcat-7.0.85
+ENDORSED_DIRS="D\:\\apache-tomcat-7.0.85/common/endorsed"
+eclipse.preferences.version=1
+JDK_HOME=C\:\\Users\\lenovo\\MyEclipse\\Common\\binary\\com.sun.java.jdk.win32.x86_64_1.6.0.013
+SERVER_ENABLEMENT=true

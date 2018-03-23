@@ -1,0 +1,22 @@
+****************************************
+doctor-reservation2医生+管理员
+网址：https://download.csdn.net/download/zhupengqq/10030799
+基于SSM框架的就医预约挂号系统的后台1、实现PageHelper分页功能，bootstrap自适应框架
+****************************************
+doctor-reservation管理员+用户
+网址：https://download.csdn.net/download/u013351270/8671155
+****************************************
+onlinebooking用户+预约功能（有点问题）
+网址：https://github.com/wdpm/OnlineBooking
+IDE: Eclipse MAR2.0 + MySQL Workbench
+Framework:Struts2.1 + Hibernate3.0 + Spring3.0 + JQuery1.11.3 + Bootstrap3.0 + Ajax
+Database:MySQL5.7
+Web Server:Apache Tomcat8.0
+Eclipse plugins:JBOSS(for Hibernate reverse tools)+XulRunner(for preview jsp files)
+****************************************
+sqlserver那个
+网址：https://download.csdn.net/download/hao7051284/7444443
+SSH，jsp带PPT,文档，演示，毕业设计不懂Q我，2862430177
+****************************************
+教程：http://how2j.cn/k/tmall-ssh/tmall-ssh-1160/1160.html#nowhere
+https://www.zhihu.com/question/30525693

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<!-- struts settings -->
+<struts>
+	<constant name="struts.objectFactory" value="spring" />
+	<package name="user" extends="struts-default">
+
+		<global-results>
+			<result name="serviceException">/exception.jsp</result>
+		</global-results>
+
+		<global-exception-mappings>
+			<exception-mapping exception="ServiceException"
+				result="serviceException" />
+		</global-exception-mappings>
+
+		<action name="login" class="LoginAction">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="register" class="RegisterAction">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="userCheck" class="UserCheckAction">
+		</action>
+		<action name="activeAccount" class="ActiveAccountAction">
+			<result name="success">success.jsp</result>
+		</action>
+		<action name="forgotPassword" class="ForgotPasswordAction">
+			<result name="error">error.jsp</result>
+			<result name="success">success.jsp</result>
+		</action>
+		<action name="resetPassword" class="ResetPasswordAction">
+			<result name="success">resetPassword.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="updatePassword" class="UpdatePasswordAction">
+			<result name="success">success.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findHospital" class="FindHospitalAction">
+			<result name="success">index.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findHospitalByRegion" class="FindHospitalByRegionAction">
+			<result name="success">index.jsp</result>
+			<result name="error">test2.jsp</result>
+		</action>
+		<action name="findHospitalById" class="FindHospitalByIdAction">
+			<result name="success">XXXXXXX.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findAllDepartment" class="FindAllDepartmentAction">
+			<result name="success">index.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findDepartmentById" class="FindDepartmentByIdAction">
+			<result name="success">XXXXXXX.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findDepartmentByHospital" class="FindDepartmentByHospitalAction">
+			<result name="success">hospital.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findDoctor" class="FindDoctorAction">
+			<result name="success">department.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="confirmOrder" class="ConfirmOrderAction">
+			<result name="success">userinfo.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="findOrders" class="FindOrdersAction">
+			<result name="success">userinfo.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="updateOrderState" class="UpdateOrderStateAction">
+			<result name="success">userinfo.jsp</result>
+		</action>
+		<action name="findAccount" class="FindAccountAction">
+			<result name="success">wallet.jsp</result>
+		</action>
+		<action name="deleteOrder" class="DeleteOrderAction">
+			<result name="success">expired_order.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+		<action name="unsubscribe" class="UnsubscribeAction">
+			<result name="success">not_expired_order.jsp</result>
+			<result name="error">error.jsp</result>
+		</action>
+	</package>
+
+	<package name="ajax_json" extends="json-default">
+		<action name="userCheck" class="UserCheckAction">
+			<result name="success" type="json" />
+		</action>
+	</package>
+</struts>

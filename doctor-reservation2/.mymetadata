@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="dector-reservation2"
+  id="myeclipse.1521375468409"
+  context-root="/dector-reservation2"
+  j2ee-spec="5.0"
+  archive="dector-reservation2.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
